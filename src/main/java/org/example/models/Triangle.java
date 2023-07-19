@@ -4,10 +4,10 @@ import java.awt.*;
 
 public class Triangle {
 
-    Vertex v1;
-    Vertex v2;
-    Vertex v3;
-    Color color;
+    public Vertex v1;
+    public Vertex v2;
+    public Vertex v3;
+    public Color color;
 
     public Triangle(Vertex v1, Vertex v2, Vertex v3, Color color) {
         this.v1 = v1;
